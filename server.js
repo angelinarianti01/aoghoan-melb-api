@@ -6,7 +6,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbx3A8VcEUAmx4JFN-TNFfMUobS_aniGJ-aBRF_cO51B5McR6n_TMNaBszHFncMvsp1bog/exec';
+const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzi9o2mQWY0QotapRu4a0XNJVQNu4awWJCm_79sHABcnSIiXqMyWqsswhDHqNrLw_e_dw/exec';
 
 app.post('/api', async (req, res) => {
   try {
