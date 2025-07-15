@@ -6,7 +6,7 @@ const app = express();
 app.use(cors());
 app.use(express.json({ limit: '10mb' }));
 
-const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzNTJNC-XVs-gL6MPuHWSSbzU5pAY8GoPOiZkMGUtk/dev';
+const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbx3A8VcEUAmx4JFN-TNFfMUobS_aniGJ-aBRF_cO51B5McR6n_TMNaBszHFncMvsp1bog/exec';
 
 app.post('/api', async (req, res) => {
   try {
